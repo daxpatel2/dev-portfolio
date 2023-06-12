@@ -1,9 +1,12 @@
 .home__container {
     row-gap: 7rem;
 }
+
 .home {
-    margin-bottom: 150px;
+    width: 100%;
+    background-color: #f0f0f0;
 }
+
 .home__content {
     grid-template-columns: 116px repeat(2,1fr);
     padding-top: 5.5rem;
@@ -33,9 +36,11 @@
 .home__title {
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
+    font-family: 'DM Sans', sans-serif;
 }
 
 .home__subtitle {
+    font-family: 'DM Sans', sans-serif;
     position: relative;
     font-size: var(--h3-font-size);
     padding-left: 5.4rem;
@@ -54,7 +59,9 @@
 }
 
 .home__description {
+    font-family: 'DM Sans', sans-serif;
     max-width: 400px;
+    font-size: 18px;
     margin-bottom: var(--mb-3);
 }
 

@@ -200,7 +200,7 @@ import course from '../../assets/course.png';
 //       image: "https://randomuser.me/api/portraits/women/6.jpg",
 //     },
 //   ];
-  
+
 const projects = [
     {
         name: "Twitter Clone",
@@ -220,7 +220,7 @@ const projects = [
             color: "pink-text-gradient",
         },
         ],
-        image: twitterImg,
+        image: course,
         source_code_link: "https://github.com/",
     },
     {
@@ -241,7 +241,7 @@ const projects = [
             color: "pink-text-gradient",
         },
         ],
-        image: OIP,
+        image: course,
         source_code_link: "https://github.com/",
     },
     {

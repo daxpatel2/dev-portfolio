@@ -8,20 +8,14 @@ import { Tilt } from 'react-tilt';
 
 function Projects({index, name, description, tags, image, source_code_link}) {
   return (
-    <section className="tilt-div">
+    <section className="project__container">
         <div className="tilt">
-            <div className="real-image">
+            <div className="showcase">
                 <img src={image} alt={name} className='project-image' />
-                <div className="git-icon">
-                    <div className="click-icon" onClick={() => window.open(source_code_link,"_blank")}>
-                        <img src={github} alt="github" className="github-logo" />
-                    </div>
-                </div>
             </div>
             <div className="project-info">
                 <h3 className='project-name'>{name}</h3>
                 <p className='project-desc'>{description}</p>
-                <button className='buttons'>Check It Out</button>
             </div>
         </div>
     </section>
@@ -30,14 +24,11 @@ function Projects({index, name, description, tags, image, source_code_link}) {
 
 function Works() {
     return (
-        <section className="sections">
+        <section className="works">
             <h2 className="my-projects">
-                My Projects
+                PROJECTS
             </h2>
-            <p className="some-work">
-                Creative work
-            </p>
-            <div className='nester'>
+            <div className='project-wrapper'>
                 {projects.map((projects, index) => (
                     <Projects
                         key={`project-${index}`}

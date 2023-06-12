@@ -3,23 +3,20 @@
     padding: 0;
 }
 
+.project__section {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 4rem;
+    max-width: 1100px;
+}
+
 .my-projects {
-    font-size: 1rem;
+    font-size: 36px;
+    font-weight: 600;
     color: var(--title-color);
-    color: #8A90A1;
-    margin-top: 60px;
 }
 
-.some-work {
-    margin-top: 1.20rem;
-    display: block;
-    font-size: 3.25rem;
-    margin-bottom: 1.2rem;
-    color: white;
-}
-
-.my-projects,
-.some-work {
+.my-projects {
     text-align: center;
 }
 
@@ -30,7 +27,7 @@
     gap: 7px;
     padding: 20px;
     align-items: flex-start;
-    background-color: #FFDC60;
+    background-color: #f0f0f0;
 }
 
 .buttons {
@@ -42,11 +39,12 @@
     padding: 10px;
 }
 
+
 .tilt-div {
     border-radius: 1.25rem;
     width: 550px;
     height: 350px;
-    background-color: red;
+    background-color: #f0f0f0;
 }
 
 .tilt-div {
@@ -134,8 +132,4 @@
     font-size: 14px;
     font-size: 1.25rem;
     color:black;
-}
-
-.sections {
-    background-color: #FFDC60;
 }

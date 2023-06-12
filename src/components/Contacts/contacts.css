@@ -4,6 +4,7 @@
 }
 
 .section__titles {
+    font-family: 'DM Sans',sans-serif;
     font-size: 1rem;
     color: var(--title-color);
     color: #8A90A1;
@@ -11,6 +12,7 @@
 }
 
 .section__subtitles {
+    font-family: 'DM Sans',sans-serif;
     margin-top: 1.20rem;
     display: block;
     font-size: 3.25rem;
@@ -36,6 +38,8 @@
 }
 
 .contact-form-text {
+    font-family: 'DM Sans',sans-serif;
+
     display: block;
     width: 100%;
     box-sizing: border-box;
@@ -50,6 +54,8 @@
 }
 
 .contact-form-text-message {
+    font-family: 'DM Sans',sans-serif;
+
     border-radius: .6rem;
     border: .5px solid #8A90A1;
     height: 200px;
@@ -70,6 +76,7 @@
 }
 
 .contact-form-button {
+    font-family: 'DM Sans',sans-serif;
     border:0;
     padding: 20px 50px;
     border-radius: .6rem;

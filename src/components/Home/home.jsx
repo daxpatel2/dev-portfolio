@@ -13,7 +13,8 @@ function Home() {
                     <Data />
                     <div className="home__img"></div>
                 </div>
-                {/* <ScrollDown /> */}
+                <br/>
+                <br/>
             </div>
         </section>
     )
