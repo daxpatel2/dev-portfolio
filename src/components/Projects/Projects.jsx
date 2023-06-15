@@ -9,13 +9,22 @@ import { Tilt } from 'react-tilt';
 function Projects({index, name, description, tags, image, source_code_link}) {
   return (
     <section className="project__container">
-        <div className="tilt">
-            <div className="showcase">
-                <img src={image} alt={name} className='project-image' />
+        <div className="image">
+            <video width="750" height="500" controls className='video'>
+                <source src="../../assets/video.mp4" type="video/mp4"/>
+            </video>
+        </div>
+        <div className="about">
+            <div className="project-hero">
+                <p className='hero-text'>Featured</p>
+                <a href={source_code_link} target='_blank' className="link">{name}</a>
             </div>
-            <div className="project-info">
-                <h3 className='project-name'>{name}</h3>
-                <p className='project-desc'>{description}</p>
+            <div className="about_text">
+                <p>{description}</p>
+            </div>
+            <div className="more">
+                {/* <p>{tags}</p> */}
+                <a href={source_code_link} target='_blank' className="code icon">Code icon from font awesome</a>
             </div>
         </div>
     </section>
