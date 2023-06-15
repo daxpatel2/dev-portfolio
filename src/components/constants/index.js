@@ -205,7 +205,7 @@ const projects = [
     {
         name: "Twitter Clone",
         description:
-        "A complete clone of twitter.com that emulates core functionalities and design of the Twitter platform",
+        "A complete clone of twitter.com that emulates core functionalities and design of the Twitter platform, A complete clone of twitter.com that emulates core fA complete clone of twitter.com that emulates core fA complete clone of twitter.com that emulates core fA complete clone of twitter.com that emulates core fA complete clone of twitter.com that emulates core f",
         tags: [
         {
             name: "react",
@@ -226,7 +226,7 @@ const projects = [
     {
         name: "Job IT",
         description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location. Web application that enables users to search for job openingsWeb application that enables users to search for job openingsWeb application that enables users to search for job openingsWeb application that enables users to search for job openings",
         tags: [
         {
             name: "react",
@@ -247,7 +247,7 @@ const projects = [
     {
         name: "Trip Guide",
         description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations. Web application that enables users to search for job openingsWeb application that enables users to search for job openingsWeb application that enables users to search for job openingsWeb application that enables users to search for job openings",
         tags: [
         {
             name: "nextjs",
