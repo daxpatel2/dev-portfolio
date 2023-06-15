@@ -1,10 +1,8 @@
 import React from 'react';
 import './Projects.css';
-import github from '../../assets/real_github.png';
-import { motion } from  'framer-motion';
-import { fadeIn } from '../utils/motion';
-import { projects } from '../constants/'
-import { Tilt } from 'react-tilt';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { projects } from '../constants/';
 
 const twitterTech =[
     "React",
@@ -19,12 +17,12 @@ const technologies2 = [
     "Node"
 ]
 
-function Projects({index, name, description, tags, image, source_code_link}) {
+function Projects({name, description, tags, image, source_code_link}) {
   return (
     <section className="project__container">
         <div className="image">
             <video width="500" height="350" controls className='video'>
-                <source src="../../assets/video.mp4" type="video/mp4"/>
+                <source src={image} type="video/mp4"/>
             </video>
         </div>
         <div className="about">
@@ -38,10 +36,10 @@ function Projects({index, name, description, tags, image, source_code_link}) {
             <div className="more">
                 <div className="tech-tech">
                     {tags?.map((technology) => (
-                        <li key={technology}>{technology}</li>
+                        <li className='listy' key={technology}>{technology}</li>
                     ))}
                 </div>
-                <a href={source_code_link} target='_blank' className="code icon">Code icon from font awesome</a>
+                <a href={source_code_link} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faCode} /></a>
             </div>
         </div>
     </section>
@@ -55,14 +53,27 @@ function Works() {
                 PROJECTS
             </h2>
             <div className='project-wrapper'>
-                {projects.map((projects, index) => (
-                    <Projects
-                        tags={}
-                        key={`project-${index}`}
-                        index={index}
-                    {...projects}
-                    />
-                ))}
+                <Projects
+                    name={projects[0].name}
+                    description={projects[0].description}
+                    tags={twitterTech}
+                    image={projects[0].image}
+                    source_code_link={projects[0].source_code_link}
+                />
+                <Projects
+                    name={projects[1].name}
+                    description={projects[1].description}
+                    tags={twitterTech}
+                    image={projects[1].image}
+                    source_code_link={projects[1].source_code_link}
+                />
+                <Projects
+                    name={projects[2].name}
+                    description={projects[2].description}
+                    tags={twitterTech}
+                    image={projects[2].image}
+                    source_code_link={projects[2].source_code_link}
+                />
             </div>
         </section>
     )

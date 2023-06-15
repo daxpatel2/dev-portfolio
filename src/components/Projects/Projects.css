@@ -67,15 +67,19 @@
     font-size: 11px;
     font-weight: 700;
 }
-
+.video {
+    border-radius: 15px;
+}
 .tech-tech {
     display: flex;
     gap: 0.5rem;
-    li {
-    background: var(--color-second);
-    color: var(--color-main);
+}
+
+.listy{
+    list-style: none;
+    background: lightcoral;
+    color: white;
     padding: 0.3rem 0.5rem;
     font-size: 0.7rem;
     border-radius: 20px;
-    }
 }

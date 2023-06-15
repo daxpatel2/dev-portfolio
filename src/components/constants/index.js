@@ -205,7 +205,7 @@ const projects = [
     {
         name: "Twitter Clone",
         description:
-        "A complete clone of twitter.com that emulates core functionalities and design of the Twitter platform, A complete clone of twitter.com that emulates core fA complete clone of twitter.com that emulates core fA complete clone of twitter.com that emulates core fA complete clone of twitter.com that emulates core fA complete clone of twitter.com that emulates core f",
+        "Introducing OurProject: A feature-rich Twitter clone leveraging state-of-the-art technology. Engage in concise communication with 280-character tweets. Seamlessly connect and interact with a diverse global community. Customize your profile and cultivate connections with friends and like-minded individuals. Experience the streamlined efficiency of conversations. Embrace the advanced functionalities of OurProject and explore new horizons in social networking. Join us now and unlock the boundless potential of our cutting-edge platform.",
         tags: [
         {
             name: "react",
