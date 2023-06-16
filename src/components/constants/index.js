@@ -1,6 +1,6 @@
 import twitterImg from '../../assets/twitter_img.jpg';
 import OIP from '../../assets/OIP.jpeg';
-import course from '../../assets/course.png';
+import video from '../../assets/video.mp4';
 
 
 // import {
@@ -205,64 +205,22 @@ const projects = [
     {
         name: "Twitter Clone",
         description:
-        "Introducing OurProject: A feature-rich Twitter clone leveraging state-of-the-art technology. Engage in concise communication with 280-character tweets. Seamlessly connect and interact with a diverse global community. Customize your profile and cultivate connections with friends and like-minded individuals. Experience the streamlined efficiency of conversations. Embrace the advanced functionalities of OurProject and explore new horizons in social networking. Join us now and unlock the boundless potential of our cutting-edge platform.",
-        tags: [
-        {
-            name: "react",
-            color: "blue-text-gradient",
-        },
-        {
-            name: "firebase",
-            color: "red-text-gradient",
-        },
-        {
-            name: "tailwind",
-            color: "pink-text-gradient",
-        },
-        ],
-        image: course,
+        "Clone of the social-media site twitter.com. Implemented functionalaty, Clone of the social-media site twitter.com. Implemented functionalaty, Clone of the social-media site twitter.com. Implemented functionalaty, Clone of the social-media site twitter.com. Implemented functionalaty,Clone of the social-media site twitter.com. Implemented functionalaty",
+        video: video,
         source_code_link: "https://github.com/",
     },
     {
         name: "Job IT",
         description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location. Web application that enables users to search for job openingsWeb application that enables users to search for job openingsWeb application that enables users to search for job openingsWeb application that enables users to search for job openings",
-        tags: [
-        {
-            name: "react",
-            color: "blue-text-gradient",
-        },
-        {
-            name: "restapi",
-            color: "green-text-gradient",
-        },
-        {
-            name: "scss",
-            color: "pink-text-gradient",
-        },
-        ],
-        image: course,
+        video: video,
         source_code_link: "https://github.com/",
     },
     {
         name: "Trip Guide",
         description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations. Web application that enables users to search for job openingsWeb application that enables users to search for job openingsWeb application that enables users to search for job openingsWeb application that enables users to search for job openings",
-        tags: [
-        {
-            name: "nextjs",
-            color: "blue-text-gradient",
-        },
-        {
-            name: "supabase",
-            color: "green-text-gradient",
-        },
-        {
-            name: "css",
-            color: "pink-text-gradient",
-        },
-        ],
-        image: course,
+        video: video,
         source_code_link: "https://github.com/",
     },
 ];

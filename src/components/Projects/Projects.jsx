@@ -10,19 +10,26 @@ const twitterTech =[
     "Firebase"
 ]
 
-const technologies2 = [
-    "MongoDB",
+const hackBank = [
+    "NextJS",
+    "Tailwind CSS",
     "Express",
-    "React",
-    "Node"
+    "Firebase"
 ]
 
-function Projects({name, description, tags, image, source_code_link}) {
+
+const JPMC = [
+    "React",
+    "Python",
+    "CSS"
+]
+
+function Projects({name, description, tags, video, source_code_link}) {
   return (
     <section className="project__container">
         <div className="image">
             <video width="500" height="350" controls className='video'>
-                <source src={image} type="video/mp4"/>
+                <source src={video} type="video/mp4"/>
             </video>
         </div>
         <div className="about">
@@ -57,21 +64,21 @@ function Works() {
                     name={projects[0].name}
                     description={projects[0].description}
                     tags={twitterTech}
-                    image={projects[0].image}
+                    video={projects[0].video}
                     source_code_link={projects[0].source_code_link}
                 />
                 <Projects
                     name={projects[1].name}
                     description={projects[1].description}
-                    tags={twitterTech}
-                    image={projects[1].image}
+                    tags={hackBank}
+                    video={projects[1].video}
                     source_code_link={projects[1].source_code_link}
                 />
                 <Projects
                     name={projects[2].name}
                     description={projects[2].description}
-                    tags={twitterTech}
-                    image={projects[2].image}
+                    tags={JPMC}
+                    video={projects[2].video}
                     source_code_link={projects[2].source_code_link}
                 />
             </div>
