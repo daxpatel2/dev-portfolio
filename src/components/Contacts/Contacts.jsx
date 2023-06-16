@@ -31,6 +31,7 @@ export const Contacts = () => {
             <button className="contact-form-button" type="submit">Send Message</button>
         </form>
         <img src={messageBubble} className='chat-bubble' alt="message" />
+        <p className="footer">Created with React, CSS and Figma</p>
     </section>
   )
 }

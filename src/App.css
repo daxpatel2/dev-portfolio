@@ -145,7 +145,7 @@ img {
   align-items: center;
 }
 
-/* @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .container {
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
@@ -157,6 +157,6 @@ img {
 
 @media screen and (max-width: 576px) {
 }
-/* For small devices */
-/* @media screen and (max-width: 350px) {
-}  */
+
+@media screen and (max-width: 350px) {
+} 
