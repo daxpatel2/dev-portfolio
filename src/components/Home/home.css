@@ -5,6 +5,7 @@
 .home {
     width: 100%;
     background-color: #f0f0f0;
+    height: 700px;
 }
 
 .home__content {
@@ -36,11 +37,11 @@
 .home__title {
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .home__subtitle {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     position: relative;
     font-size: var(--h3-font-size);
     padding-left: 5.4rem;
@@ -59,7 +60,7 @@
 }
 
 .home__description {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     max-width: 400px;
     font-size: 18px;
     margin-bottom: var(--mb-3);

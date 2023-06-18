@@ -5,7 +5,7 @@ import code from '../../assets/code-white.jpg'
 
 export const About = () => {
   return (
-    <section className="about section" id="about">
+    <section className="about-section" id="about">
       <div className="about__container container grid">
         <img src={code} className="about__img" alt='img' />
         <div className="about__data">

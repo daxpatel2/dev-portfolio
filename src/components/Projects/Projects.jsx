@@ -26,7 +26,7 @@ const JPMC = [
 
 function Projects({name, description, tags, video, source_code_link}) {
   return (
-    <section className="project__container">
+    <section className="project__container" id="projects">
         <div className="image-video">
             <video width="500" height="350" controls className='video'>
                 <source src={video} type="video/mp4"/>
