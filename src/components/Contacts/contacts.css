@@ -55,7 +55,6 @@
 
 .contact-form-text-message {
     font-family: 'DM Sans',sans-serif;
-
     border-radius: .6rem;
     border: .5px solid #8A90A1;
     height: 200px;
@@ -70,6 +69,7 @@
     color: #ddd;
     transition: .5s;
 }
+
 .contact-form-text:focus,
 .contact-form-text-message:focus{
     box-shadow: 0 0 1px 1px lightcoral;
@@ -84,6 +84,7 @@
     font-weight: bold;
     background-color: lightcoral;
 }
+
 .contact-form-button:hover {
     background-color: aquamarine;
 }
@@ -109,7 +110,17 @@
 
 .footer {
     text-align: center;
-    font-family: 'Inter';
+    font-family: 'DM Sans',sans-serif;
     color: white;
-    font-size: 12px;
+    font-size: 11px;
+}
+
+.git-project-link {
+    color: white;
+}
+
+@media screen and (max-width: 970px) {
+    .chat-bubble {
+        visibility: hidden;
+    }
 }

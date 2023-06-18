@@ -3,6 +3,10 @@ import './Tech.css'
 import CodeIcon from '@mui/icons-material/Code';
 import ComputerOutlinedIcon from '@mui/icons-material/ComputerOutlined';
 import StorageIcon from '@mui/icons-material/Storage';
+import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+// import { faDatabase, faRuler } from '@fortawesome/fontawesome-free-solid'
+import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons'
 
 function Tech() {
   return (
@@ -14,9 +18,9 @@ function Tech() {
                         <CodeIcon fontSize='medium' className='icon'/>
                     </div>
                     <h2>BACK END</h2>
+                    <p>C</p>
                     <p>Java</p>
                     <p>Python</p>
-                    <p>C</p>
                     <p>NodeJS</p>
                     <p>ExpressJS</p>
             </div>
@@ -26,11 +30,11 @@ function Tech() {
                         <ComputerOutlinedIcon fontSize='medium' className='icon'/>
                     </div>
                     <h2>FRONT END</h2>
-                    <p>JavaScript</p>
-                    <p>React</p>
-                    <p>NextJS</p>
-                    <p>HTML</p>
                     <p>CSS</p>
+                    <p>React</p>
+                    <p>HTML</p>
+                    <p>NextJS</p>
+                    <p>JavaScript</p>
                 </div>
             </div>
             <div className="card">

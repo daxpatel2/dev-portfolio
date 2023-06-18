@@ -2,7 +2,6 @@ import React from "react";
 import Social from "./Social";
 import './home.css';
 import Data from './Data';
-import ScrollDown from "./ScrollDown";
 
 function Home() {
     return (
@@ -11,7 +10,8 @@ function Home() {
                 <div className="home__content grid">
                     <Social />
                     <Data />
-                    <div className="home__img"></div>
+                    <div className="home__img">
+                    </div>
                 </div>
                 <br/>
                 <br/>
