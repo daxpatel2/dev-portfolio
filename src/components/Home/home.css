@@ -19,6 +19,7 @@
     display: grid;
     grid-template-columns: max-content;
     row-gap: 1rem;
+    scale: 1.1;
 }
 
 .home__social:hover{

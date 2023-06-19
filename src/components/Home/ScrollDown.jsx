@@ -1,5 +1,5 @@
 import React from 'react'
-import './scroll.css'
+import './scrollDown.css'
 export const ScrollDown = () => {
   return (
     <a href="#home">

@@ -46,7 +46,7 @@ function Projects({name, description, tags, video, source_code_link}) {
                         <li className='listy' key={technology}>{technology}</li>
                     ))}
                 </div>
-                <a href={source_code_link} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faCode} /></a>
+                <a href={source_code_link} className="source-link" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faCode} /></a>
             </div>
         </div>
     </section>
@@ -82,6 +82,7 @@ function Works() {
                     source_code_link={projects[2].source_code_link}
                 />
             </div>
+            <a>View Archive of all projects</a>
         </section>
     )
 }
