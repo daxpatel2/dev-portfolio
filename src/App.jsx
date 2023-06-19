@@ -5,6 +5,7 @@ import About from './components/About/About';
 import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/footer';
 import Works from './components/Projects/Projects';
+import Scroll from './components/ScrollUp/Scroll';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <About />
         <Contacts />
       </main>
+      <Scroll />
 
     </>
   )

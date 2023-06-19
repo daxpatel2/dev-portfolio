@@ -82,7 +82,7 @@ function Works() {
                     source_code_link={projects[2].source_code_link}
                 />
             </div>
-            <a>View Archive of all projects</a>
+            <a href='/archive'>View Archive of all projects</a>
         </section>
     )
 }
