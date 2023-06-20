@@ -105,3 +105,24 @@
 .source-link:visited {
   color: inherit;
 }
+
+.archive {
+  font-family: 'Inter',sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  list-style: none;
+  color: black;
+}
+
+.view-arc{
+  font-family: 'Inter',sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  list-style: none;
+  color: black;
+}
+
+.view-arc:visited{
+  color: black;
+}
+

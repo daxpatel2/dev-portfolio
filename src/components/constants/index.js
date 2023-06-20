@@ -207,7 +207,7 @@ const projects = [
         description:
         "Clone of the social-media site twitter.com. Implemented functionalaty, Clone of the social-media site twitter.com. Implemented functionalaty, Clone of the social-media site twitter.com. Implemented functionalaty, Clone of the social-media site twitter.com. Implemented functionalaty,Clone of the social-media site twitter.com. Implemented functionalaty",
         video: video,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/UnmarkedBanshee/twitter-clone",
     },
     {
         name: "Job IT",

@@ -12,7 +12,7 @@ export const About = () => {
           <h2 className="section__titless">ABOUT</h2>
           <br/>
           <p className="about__description">
-          As my journey as a computer science major continues, I am constiently experimenting with new technologies. I aim to build upon my current back-end knowledge and combine it with my front-end skills, working towards becoming a full-stack developer. I am committed to explore and experiment with technologies in pursuit of building seamless and engaging user experiences.
+          As my journey as a software engineer continues, I am constiently experimenting with new technologies. I aim to build upon my current back-end knowledge and combine it with my front-end skills, working towards becoming a full-stack developer. I am committed to explore and experiment with technologies in pursuit of building seamless and engaging user experiences.
           </p>
           <br/>
           <p className="tech">

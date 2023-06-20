@@ -82,7 +82,9 @@ function Works() {
                     source_code_link={projects[2].source_code_link}
                 />
             </div>
-            <a href='/archive'>View Archive of all projects</a>
+            <p className='archive'>ALL PROJECTS</p>
+            <a className='view-arc' href='/archive'>View Archive</a>
+
         </section>
     )
 }

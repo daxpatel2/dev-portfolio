@@ -18,13 +18,13 @@ function Header() {
                             </a>
                         </li>
                         <li className='nav__item'>
-                            <a href="#about" onClick={() => setActiveNav("about")} className={ activeNav === "about" ? "nav__link active-link" : "nav__link"}>
-                                <i className="uil uil-user nav__icon"></i> ABOUT
+                            <a href="#projects"  onClick={() => setActiveNav("#projects")} className={ activeNav === "#projects" ? "nav__link active-link" : "nav__link"}>
+                                <i className="uil uil-scenery nav__icon"></i> PROJECTS
                             </a>
                         </li>
                         <li className='nav__item'>
-                            <a href="#projects"  onClick={() => setActiveNav("#projects")} className={ activeNav === "#projects" ? "nav__link active-link" : "nav__link"}>
-                                <i className="uil uil-scenery nav__icon"></i> PROJECTS
+                            <a href="#about" onClick={() => setActiveNav("about")} className={ activeNav === "about" ? "nav__link active-link" : "nav__link"}>
+                                <i className="uil uil-user nav__icon"></i> ABOUT
                             </a>
                         </li>
                         <li className='nav__item'>
