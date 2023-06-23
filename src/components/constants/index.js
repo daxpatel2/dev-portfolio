@@ -210,9 +210,9 @@ const projects = [
         source_code_link: "https://github.com/UnmarkedBanshee/twitter-clone",
     },
     {
-        name: "Job IT",
+        name: "Trello Clone",
         description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location. Web application that enables users to search for job openingsWeb application that enables users to search for job openingsWeb application that enables users to search for job openingsWeb application that enables users to search for job openings",
+        "Clone of team management app Trello.com, BIO UNDER CONSTRUCTION, BIO UNDER CONSTRUCTION, BIO UNDER CONSTRUCTION, BIO UNDER CONSTRUCTION, BIO UNDER CONSTRUCTION",
         video: video,
         source_code_link: "https://github.com/",
     },
