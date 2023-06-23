@@ -1,21 +1,21 @@
 /*  Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rock+Salt&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rock+Salt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
 :root {
   --header-height: 3rem;
 
   /* Colors */
   --hue: 0;
-  --sat:0%;
+  --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: white;
 
-  --body-font: 'Poppins',sans-serif;
+  --body-font: "Poppins", sans-serif;
 
   --big-font-size: 3.5rem;
   --h1-font-size: 2.25rem;
@@ -42,7 +42,6 @@
   --z-fixed: 100;
   --z-modal: 1000;
 }
-
 
 @media screen and (max-width: 992px) {
   :root {
@@ -74,16 +73,18 @@ textarea {
 }
 
 body {
-background-color: var(--body-color);
-color: var(--text-color);
+  background-color: var(--body-color);
+  color: var(--text-color);
 }
-h1, h2, h3 {
-color: var(--title-color);
-font-weight: var(--font-semi-bold);
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
 }
 
 a {
-text-decoration: none;
+  text-decoration: none;
 }
 button {
   cursor: pointer;
@@ -96,7 +97,7 @@ img {
 }
 
 .section {
-  padding: 6rem 0 2rem,
+  padding: 6rem 0 2rem;
 }
 .section__title {
   font-size: var(--h1-font-size);
@@ -149,7 +150,7 @@ img {
   .container {
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
-  } 
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -173,14 +174,12 @@ img {
   .section {
     padding: 2rem 0 4rem;
   }
-
   .section__subtitle {
     margin-bottom: var(--mb-3);
   }
 }
 
 @media screen and (max-width: 576px) {
-
 }
 
 @media screen and (max-width: 350px) {
@@ -188,4 +187,4 @@ img {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
-} 
+}
