@@ -11,36 +11,35 @@
 }
 
 .about {
-    background-color: #fafafa;
-    flex: 1;
+  background-color: #fafafa;
+  flex: 1;
 }
 
 .project-hero {
-    background-color: #fafafa;
-    padding: 1rem 2rem;
-    .hero-text {
-      font-weight: bold;
-      font-size: 0.7rem;
-    }
+  background-color: #fafafa;
+  padding: 1rem 2rem;
+  .hero-text {
+    font-weight: bold;
+    font-size: 0.7rem;
+  }
 }
 
 .about_text {
-    font-family: 'Inter',sans-serif;
-    line-height: 22px;
-    font-size: 16px;
-    color: black;
-    padding: 2rem;
-    background: #F0F0F0;
-    position: relative;
-    right: 8px;
+  font-family: "Inter", sans-serif;
+  line-height: 22px;
+  font-size: 16px;
+  color: black;
+  padding: 1.5rem;
+  background: #f0f0f0;
+  position: relative;
 }
 
 .more {
-    background-color: #fafafa;
-    padding: 1rem;
-    display: flex;
-    gap: 0.75rem;
-    align-items: center;
+  background-color: #fafafa;
+  padding: 1rem;
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
 }
 
 .image-video {
@@ -49,7 +48,6 @@
   display: flex;
   align-items: center;
 }
-
 
 .works {
   max-width: 1080px;
@@ -61,43 +59,42 @@
 }
 
 .link {
-    color: black;
-    text-decoration: none;
-    list-style: none;
-    font-size: 19px;
-    font-weight: 700;
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  font-size: 19px;
+  font-weight: 700;
 }
 
 .link:hover {
-    color: lightcoral
+  color: lightcoral;
 }
 
 .featured {
-    color: lightcoral;
-    font-size: 11px;
-    font-weight: 700;
+  color: lightcoral;
+  font-size: 11px;
+  font-weight: 700;
 }
 
 .tech-tech {
-    display: flex;
-    gap: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
 }
 
 .listy {
-    list-style: none;
-    background: lightcoral;
-    color: white;
-    padding: 0.3rem 0.5rem;
-    font-size: 0.7rem;
-    border-radius: 20px;
+  list-style: none;
+  background: lightcoral;
+  color: white;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.7rem;
+  border-radius: 20px;
 }
-
 
 .source-link:hover {
   color: lightcoral;
 }
 
-.source-link{
+.source-link {
   color: inherit;
   text-decoration: none;
 }
@@ -107,22 +104,33 @@
 }
 
 .archive {
-  font-family: 'Inter',sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 13px;
   font-weight: 700;
   list-style: none;
   color: black;
 }
 
-.view-arc{
-  font-family: 'Inter',sans-serif;
+.view-arc {
+  font-family: "Inter", sans-serif;
   font-size: 13px;
   font-weight: 400;
   list-style: none;
   color: black;
 }
 
-.view-arc:visited{
+.view-arc:visited {
   color: black;
 }
 
+@media screen and (max-width: 849px) {
+  .image-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .featured {
+    justify-content: left;
+  }
+}
