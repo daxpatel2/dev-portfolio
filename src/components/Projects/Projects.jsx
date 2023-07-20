@@ -11,7 +11,7 @@ const twitterTech = ["React", "CSS", "Firebase"];
 
 const hackBank = ["NextJS", "Tailwind CSS", "Express", "Firebase"];
 
-const File_System = ["C", "SQL", "Linux", "Bash"];
+const File_System = ["C", "Linux", "Bash"];
 
 function Projects({ name, description, gif, tags, source_code_link }) {
   return (
