@@ -23,7 +23,7 @@ const projects = [
   {
     name: "File System",
     description:
-      "A comprehensive file system built in C/C++. Allows for user to create a file structure from scratch using MDADM storage systems. Incorparated caching functionltiy to fully cache tasks like reading from a file to speed up application.",
+      "A comprehensive file system built in C that allows users to create a file structure from scratch using MDADM storage systems. Incorporated caching functionality that fully caches processes like, reading from a file, writing to a file, and building a file, in order to significantly improve application speed.",
     gif: {
       image: null,
     },
